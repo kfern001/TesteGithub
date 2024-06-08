@@ -26,6 +26,8 @@ public class Workspace {
 
         System.out.printf("\nAverage of the values: %.2f%n", (avg / classList.getNumberList().length));
 
+        System.out.println("Sum of the values from the list: " + avg);
+
         sc.close();
     }
 }
