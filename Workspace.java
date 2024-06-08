@@ -17,10 +17,14 @@ public class Workspace {
         Training classList = new Training();
         classList.setNumberList(list);
 
+        double avg = 0.0;
         System.out.println("Number from the list: ");
         for (int x = 0; x < list.length; x++) {
             System.out.println("Number #" + (x + 1) + ": " + classList.getNumberList()[x]);
+            avg += classList.getNumberList()[x];
         }
+
+        System.out.printf("\nAverage of the values: %.2f%n", (avg / classList.getNumberList().length));
 
         sc.close();
     }
