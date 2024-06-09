@@ -14,6 +14,8 @@ public class Workspace {
             list[x] = (number);
         }
 
+        // This is comment
+
         Training classList = new Training();
         classList.setNumberList(list);
 
